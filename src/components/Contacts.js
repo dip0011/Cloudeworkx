@@ -14,10 +14,8 @@ function Contacts() {
   const getContactsList = async () => {
     try{
       const res = await axios.get(`${process.env.REACT_APP_SERVER_URL}/getContacts`);
-      console.log(res.data.contacts);
       setContacts(res.data.contacts);
     }catch(err){
-      console.log(err);
       toast.error(err.response?.data.message || "Something went wrong");
     }
   }
