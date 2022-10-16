@@ -7,9 +7,9 @@ Styling: BootStrap\
 Libraries: react-beautiful-dnd, three, @react-three/fiber, react-chartjs-2\
 Tools: VsCode, Chrome, Github
 
-## Simple Project Demo
+## Project Demo (Vercel)
 
-![](https://github.com/dip0011/Demo.gif)
+https://cloudeworkx.vercel.app/
 
 ## Available Scripts for Project Run
 
