@@ -13,6 +13,10 @@ code {
     monospace;
 }
 
-.active{
-  font-weight: bold;
+.dashboardBackground{
+  background-color: #EEF3F6;
+}
+
+canvas{
+  width: 60px;
 }

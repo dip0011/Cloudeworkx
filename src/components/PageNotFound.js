@@ -1,11 +1,13 @@
 import React from "react";
-import Fourzerofour from "./fourzerofour.png";
+import Fourzerofour from "./img/fourzerofour.png";
 
 function PageNotFound() {
   return (
     <>
-      <div className="notfound-container">
-        <img src={Fourzerofour} alt="PageNotFound" />
+      <div class="row text-center">
+        <div class="col-12">
+          <img src={Fourzerofour} alt="PageNotFound" />
+        </div>
       </div>
     </>
   );
